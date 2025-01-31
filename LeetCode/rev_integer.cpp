@@ -27,3 +27,7 @@ int main() {
     std::cout << solution.reverse(-2147483648) << std::endl;
     return 0;
 }
+// overflow occurs when the result exceeds the range that can be represented by a double, resulting in positive infinity (HUGE_VAL).
+//Condition for overflow
+//Both the no is negative and the resultant is positive
+//Both the no is positive and the resultant is negative
