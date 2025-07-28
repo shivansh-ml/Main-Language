@@ -1,0 +1,1 @@
+//Works only on sorted array
