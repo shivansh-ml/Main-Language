@@ -3,9 +3,9 @@
 using namespace std;
 
 int main() {
-    vector<int> A(10);   
-    for (int &x : A) cin >> x;
-    for (int x : A) cout << x << " "; 
+//     vector<int> A(10);   
+//     for (int &x : A) cin >> x;
+//     for (int x : A) cout << x << " "; 
     //Finding single missing element in a sorted array for starting element with 1 for n natural number
     // int sum = A[9]*(A[9]+1)/2;
     // cout<<endl<<sum<<endl;
@@ -25,6 +25,20 @@ int main() {
     //     }
     //     i++;
     // }
-    
+    //Finding Missing Element in an Unsorted Array  
+    int a[] = {3,7,4,9,12,6,1,11,2,10};
+    int max = 12;
+    int B[max];
+    for(int i = 0;i<max;i++){
+        B[i] = 0;
+    }
+    int n = sizeof(a)/sizeof(a[0]);
+    for(int i = 0;i<n;i++){
+        B[a[i]] = 1; 
+    }
+    cout << "Missing numbers: ";
+    for (int i = 1; i <= max; i++) {
+        if (B[i] == 0) cout << i << " ";
+    }
     return 0;
 }
