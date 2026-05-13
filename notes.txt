@@ -1,0 +1,5 @@
+#include <bits/stdc++.h> includes all standard library of c++ in the file so you dont have to import anything new
+
+getline() allows you to take an entire string as an input
+eg- getline(cin, str); now the input can be an entire sentence
+
