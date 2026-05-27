@@ -3,3 +3,16 @@
 getline() allows you to take an entire string as an input
 eg- getline(cin, str); now the input can be an entire sentence
 
+STACK -LIFO
+Queue - FIFO Both follow linear property
+
+Non-linear - follow some kind of hierarchial or network type architecture and are Dynamic in nature
+Eg - Tree, Graph
+Cycles cannot be present in a Tree but can in Graph
+
+Hash Based - We have some type of hash that defines every single element i.e. present in hash map or hash set to find the data in near constant time
+
+Benefits of Arrays: Random access O(1), cache friendly, ease of sorting, implement other defines
+Limitations of Arrays: fixed size, 0(n) insert and delete, inefficient for frequent modifications
+Exception of fixed size is ArrayList
+When to use: implement other DS, Caching Memoization Tabulation of item, Keep track of visited notes, lots of coding technique(2 pointer, sliding window technique), Mathematical model 
